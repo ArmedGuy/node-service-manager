@@ -1,4 +1,4 @@
-#!/usr/bin/node
+#!/usr/bin/env node
 var service = require(__dirname + "../lib/node-service");
 var i = 0;
 var settings = {
