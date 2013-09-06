@@ -1,7 +1,7 @@
 {
   "name": "node-service",
   "preferGlobal": true,
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Johan Jatko <johan@pie-studios.com>",
   "description": "A service installer for linux(and windows SOON(TM)) scripts",
   "contributors": [ 
@@ -11,6 +11,7 @@
     } 
   ],
   "bin": {
+	"node-service": "./bin/node-service"
   },
   "scripts": {},
   "main": "./lib/node-service",
