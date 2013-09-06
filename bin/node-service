@@ -6,7 +6,8 @@ var service = require(lib + "/node-service");
 var i = 0;
 var settings = {
 	name: "",
-	run: "/dev/null"
+	run: "/dev/null",
+	args: []
 }
 var action = "";
 process.argv.forEach(function(arg) {
