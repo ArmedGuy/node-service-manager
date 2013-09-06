@@ -1,17 +1,17 @@
 {
   "name": "node-service",
   "preferGlobal": true,
-  "version": "0.1.4",
+  "version": "0.1.6",
   "author": "Johan Jatko <johan@pie-studios.com>",
   "description": "A service installer for linux(and windows SOON(TM)) scripts",
   "contributors": [ 
     {
       "name": "Johan Jatko",
       "email": "johan@pie-studios.com"
-    } 
+    }
   ],
   "bin": {
-	"node-service": "./bin/node-service.js"
+	"node-service": "./bin/node-service"
   },
   "scripts": {
 	"test": "node-service install test node -e \"require('http').createServer(function(req,res){res.writeHead(200);res.end('Derp');}).listen(80, '0.0.0.0');\""

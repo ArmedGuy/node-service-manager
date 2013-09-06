@@ -1,5 +1,8 @@
 #!/usr/bin/env node
-var service = require(__dirname + "../lib/node-service");
+var path = require('path');
+var fs = require('fs');
+var lib = path.join(path.dirname(fs.realpathSync(__filename)), '../lib');
+var service = require(lib + "/node-service");
 var i = 0;
 var settings = {
 	name: "",
@@ -29,4 +32,6 @@ switch(action) {
 	case "uninstall":
 		svc.uninstall();
 		break;
+	default:
+		console.log("Invalid parameters!");
 }
