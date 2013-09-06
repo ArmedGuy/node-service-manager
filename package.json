@@ -1,8 +1,8 @@
 {
   "name": "node-service",
   "preferGlobal": true,
-  "version": "0.1.1",
-  "author": "ArmedGuy <johan@pie-studios.com>",
+  "version": "0.1.2",
+  "author": "Johan Jatko <johan@pie-studios.com>",
   "description": "A service installer for linux(and windows SOON(TM)) scripts",
   "contributors": [ 
     {
