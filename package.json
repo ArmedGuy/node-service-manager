@@ -1,0 +1,42 @@
+{
+  "name": "node-service",
+  "preferGlobal": true,
+  "version": "0.3.0",
+  "author": "ArmedGuy <johan@pie-studios.com>",
+  "description": "A service installer for",
+  "contributors": [ 
+    {
+      "name": "Johan Jatko",
+      "email": "johan@pie-studios.com"
+    } 
+  ],
+  "bin": {
+  },
+  "scripts": {
+    "test": "vows --spec --isolate",
+  },
+  "main": "./lib/node-service",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArmedGuy/node-service.git"
+  },
+  "keywords": [
+    "service",
+    "linux",
+    "sysvinit"
+  ],
+  "dependencies" : {},
+  "analyze": false,
+  "devDependencies": {
+    "vows"    :  "0.5.x",
+    "request" :  "2.1.x"
+  },
+  "bundledDependencies": [
+    "union",
+    "ecstatic"
+  ],  
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
