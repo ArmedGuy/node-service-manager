@@ -1,4 +1,5 @@
-# node-service [![Build Status](https://travis-ci.org/ArmedGuy/node-service.png?branch=master)](https://travis-ci.org/ArmedGuy/node-service)
+# node-service
+[![Build Status](https://travis-ci.org/ArmedGuy/node-service.png?branch=master)](https://travis-ci.org/ArmedGuy/node-service)
 
 A Linux(and soon Windows) Service Manager for node.js
 
