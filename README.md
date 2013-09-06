@@ -11,7 +11,7 @@ Services can be installed in two ways
 
 
 ### Via code
-´´´javascript
+```node
 var service = require('node-service');
 var svc = new service.Service({
   name: "test",
@@ -26,7 +26,7 @@ svc.install();
 
 // To uninstall the service
 svc.uninstall();
-´´´
+```
 
 ### Via the command-line
 ```bash
