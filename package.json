@@ -14,7 +14,7 @@
 	"servicemgr": "./bin/service-manager"
   },
   "scripts": {
-	"test": "node-service install test node -e \"require('http').createServer(function(req,res){res.writeHead(200);res.end('Derp');}).listen(80, '0.0.0.0');\""
+	"test": "servicemgr install test node -e \"require('http').createServer(function(req,res){res.writeHead(200);res.end('Derp');}).listen(80, '0.0.0.0');\""
   },
   "main": "./lib/service-manager",
   "repository": {
