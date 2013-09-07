@@ -24,7 +24,9 @@
   "keywords": [
     "service",
     "linux",
-    "sysvinit"
+    "sysvinit",
+	"windows",
+	"net"
   ],
   "dependencies" : {},
   "analyze": false,
