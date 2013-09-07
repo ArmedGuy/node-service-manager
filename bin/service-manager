@@ -2,7 +2,7 @@
 var path = require('path');
 var fs = require('fs');
 var lib = path.join(path.dirname(fs.realpathSync(__filename)), '../lib');
-var service = require(lib + "/node-service");
+var service = require(lib + "/service-manager");
 var i = 0;
 var settings = {
 	name: "",
