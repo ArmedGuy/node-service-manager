@@ -35,4 +35,5 @@ switch(action) {
 		break;
 	default:
 		console.log("Invalid parameters!");
+		break;
 }
