@@ -14,7 +14,7 @@
 	"servicemgr": "./bin/service-manager"
   },
   "scripts": {
-	"test": "./bin/tests.sh"
+	"test": "sh ./bin/tests.sh"
   },
   "main": "./lib/service-manager",
   "repository": {
