@@ -1,7 +1,7 @@
 {
   "name": "service-manager",
   "preferGlobal": true,
-  "version": "0.1.9",
+  "version": "0.1.17",
   "author": "Johan Jatko <johan@pie-studios.com>",
   "description": "A service manager for linux(and windows SOON(TM)) scripts",
   "contributors": [ 
