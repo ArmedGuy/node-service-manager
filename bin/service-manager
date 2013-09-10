@@ -20,7 +20,7 @@ process.argv.forEach(function(arg) {
 	if(i == 4) {
 		settings.run = arg;
 	}
-	if(i > 5) {
+	if(i > 4) {
 		settings.args.push(arg);
 	}
 	i++;
