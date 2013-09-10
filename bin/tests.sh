@@ -9,6 +9,7 @@ if [ "$FIND" -eq "1" ]; then
 	echo "----------------------------"
 	echo "Error Log:"
 	cat /var/log/test_error.log
+	echo "----------------------------"
     exit 0;
 else
 	echo "Did not recieve correct response from server!"
@@ -19,5 +20,6 @@ else
 	echo "----------------------------"
 	echo "Error Log:"
 	cat /var/log/test_error.log
+	echo "----------------------------"
     exit 1;
 fi
