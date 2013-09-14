@@ -1,9 +1,9 @@
 {
-  "name": "node-service",
+  "name": "service-manager",
   "preferGlobal": true,
-  "version": "0.1.7",
+  "version": "0.1.17",
   "author": "Johan Jatko <johan@pie-studios.com>",
-  "description": "A service installer for linux(and windows SOON(TM)) scripts",
+  "description": "A service manager for linux(and windows SOON(TM)) scripts",
   "contributors": [ 
     {
       "name": "Johan Jatko",
@@ -11,20 +11,22 @@
     }
   ],
   "bin": {
-	"node-service": "./bin/node-service"
+	"servicemgr": "./bin/service-manager"
   },
   "scripts": {
-	"test": "node-service install test node -e \"require('http').createServer(function(req,res){res.writeHead(200);res.end('Derp');}).listen(80, '0.0.0.0');\""
+	"test": "sh ./bin/tests.sh"
   },
-  "main": "./lib/node-service",
+  "main": "./lib/service-manager",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArmedGuy/node-service.git"
+    "url": "https://github.com/ArmedGuy/node-service-manager.git"
   },
   "keywords": [
     "service",
     "linux",
-    "sysvinit"
+    "sysvinit",
+	"windows",
+	"net"
   ],
   "dependencies" : {},
   "analyze": false,
