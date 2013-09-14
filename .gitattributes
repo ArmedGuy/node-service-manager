@@ -20,3 +20,8 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+# linux line feeds
+linux-service-controller.js text=eol lf
+bin/service-manager text=eol lf
+bin/tests.sh text=eol lf
